@@ -1,0 +1,21 @@
+ /*
+ !/.gitignore
+
+ !/.bash_profile
+ !/.bashrc
+ !/.profile
+
+ # only track rc and rifle.conf inside ranger/
+ !/ranger/
+ /ranger/*
+ !/ranger/rc.conf
+ !/ranger/rifle.conf
+
+ !/vim/
+ # Generated Data
+ /.vim/spell/
+ !/.vim/doc/tags
+ # Git Repos
+ /.vim/autoload/plug.vim
+ /.vim/autoload/plug.vim.old
+ /.vim/plugged/

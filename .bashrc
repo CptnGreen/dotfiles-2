@@ -96,7 +96,7 @@ alias free='free -m'                      # show sizes in MB
 alias np='nano -w PKGBUILD'
 alias more=less
 
-alias l="ranger"
+alias l=". ranger"
 alias ll="ls -l"
 alias la="ls -la"
 alias gcc="gcc -Wall -Werror -Wextra"
